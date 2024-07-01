@@ -6,4 +6,6 @@ let articles = [
  { id: 5, country: 'Portugal', slogan: 'As armas' }
 ];
 
-console.log(articles);
+articles.forEach(article => {
+ console.log(`ID: ${article.id}, País: ${article.country}, Eslogan: ${article.slogan}`);
+});
